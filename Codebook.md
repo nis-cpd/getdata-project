@@ -1,18 +1,28 @@
 # Codebook for Smartphone Activity Averages
 
-Subject
-  Subject identifier indicating the person carrying out the activities
+## Subject
+
+Subject identifier indicating the person carrying out the activities
+
+```
     1..30
-    
-Activity
-  Activity name
+```
+
+## Activity
+
+Activity name
+
+```
     WALKING
     WALKING_UPSTAIRS
     WALKING_DOWNSTAIRS
     SITTING
     STANDING
     LAYING
-    
+```
+
+## Measurements
+```
 tBodyAcc.mean...X
 tBodyAcc.mean...Y
 tBodyAcc.mean...Z
@@ -79,4 +89,11 @@ fBodyBodyGyroMag.mean..
 fBodyBodyGyroMag.std..
 fBodyBodyGyroJerkMag.mean..
 fBodyBodyGyroJerkMag.std..
-  Measures beginning "t" are time variables, those beginning "f" are frequency variables.  Measures labelled "Body" are for the subjects body, those labelled "Gravity" are for natural gravity.  Measures ending "mean" are the mean of means all measurements of that variable for a given subject and activity, those ending "std" are the mean of standard deviations of all measurements of that variable for a given subject and activity.
+```
+
+Measures beginning "t" are time variables, those beginning "f" are frequency
+variables.  Measures labelled "Body" are for the subjects body, those labelled
+"Gravity" are for natural gravity.  Measures ending "mean" are the mean of means
+all measurements of that variable for a given subject and activity, those ending
+"std" are the mean of standard deviations of all measurements of that variable
+for a given subject and activity.
