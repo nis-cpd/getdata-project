@@ -1,5 +1,13 @@
 # Codebook for Smartphone Activity Averages
 
+The source data was downloaded from
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+The derived data has 30 subjects and 6 activities, hence 180 rows.  Each row has
+means for 66 variables: 33 means and 33 standard deviations, averaged across all
+observations for that measurement for that subject/activity pair.
+
 ## Subject
 
 Subject identifier indicating the person carrying out the activities
